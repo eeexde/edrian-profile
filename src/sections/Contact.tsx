@@ -5,9 +5,7 @@ const Contact: React.FC = () => (
     <div className="contact">
       <a className="btn" href="mailto:you@example.com">Email me</a>
       <div className="socials">
-        <a href="https://github.com/yourhandle" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/yourhandle" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a href="https://twitter.com/yourhandle" target="_blank" rel="noreferrer">X / Twitter</a>
+        <a href="https://github.com/eeexde" target="_blank" rel="noreferrer">GitHub</a>
       </div>
     </div>
   </Section>
