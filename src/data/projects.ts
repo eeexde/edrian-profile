@@ -5,15 +5,15 @@ export const projects: Project[] = [
     slug: 'portfolio',
     name: 'Developer Portfolio',
     summary: 'This website. Accessible, responsive, and fast. ~100 Lighthouse performance.',
-    url: 'https://yourdomain.dev',
+    url: '/',
     stack: ['React', 'TypeScript', 'Vite']
   },
   {
-    slug: 'taskmate',
-    name: 'TaskMate',
-    summary: 'A minimal task manager with offline support and keyboard-first UX.',
-    url: 'https://github.com/yourhandle/taskmate',
-    stack: ['React', 'Vite', 'IndexedDB', 'PWA']
+    slug: 'toonify',
+    name: 'Toonify',
+    summary: 'Personal Manwha reader fetched from ScraperGo API with mobile app support',
+    url: 'https://toonify-91893.bubbleapps.io/version-test',
+    stack: ['Bubble.io', 'Mobile', 'API']
   },
   {
     slug: 'charts',
