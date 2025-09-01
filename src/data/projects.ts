@@ -5,7 +5,7 @@ export const projects: Project[] = [
     slug: 'portfolio',
     name: 'Developer Portfolio',
     summary: 'This website. Accessible, responsive, and fast. ~100 Lighthouse performance.',
-    url: '/',
+    url: './',
     stack: ['React', 'TypeScript', 'Vite']
   },
   {
