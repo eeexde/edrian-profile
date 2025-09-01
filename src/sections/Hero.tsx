@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
         <div className="hero__avatar" aria-hidden="true">
-          <img src="./src/assets/edrian-image.png" alt="Edrian in a suit" width="400" height="500"></img>
+          <img src="/public/edrian-image.png" alt="Edrian in a suit" width="400" height="500"></img>
         </div>
       </div>
     </section>
