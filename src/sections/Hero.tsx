@@ -1,5 +1,4 @@
 import edrianImage from '../assets/edrian-image.png'
-import resume from '../assets/Edrian_Pasaylo_Resume_Clean.pdf'
 
 const Hero: React.FC = () => {
   return (
@@ -18,7 +17,7 @@ const Hero: React.FC = () => {
           </p>
           <div className="hero__ctas">
             <a className="btn" href="#projects">View Projects</a>
-            <a className="btn btn--ghost" href={resume} target="_blank" rel="noreferrer">Resume</a>
+            <a className="btn btn--ghost" href="/Edrian_Pasaylo_Resume_Clean.pdf" target="_blank" rel="noreferrer">Resume</a>
           </div>
         </div>
         <div className="hero__avatar" aria-hidden="true">
