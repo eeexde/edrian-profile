@@ -18,7 +18,9 @@ const Hero: React.FC = () => {
             <a className="btn btn--ghost" href="/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
           </div>
         </div>
-        <div className="hero__avatar" aria-hidden="true">👩‍💻</div>
+        <div className="hero__avatar" aria-hidden="true">
+          <img src="./src/assets/edrian-image.png" alt="Edrian in a suit" width="400" height="500"></img>
+        </div>
       </div>
     </section>
   )
