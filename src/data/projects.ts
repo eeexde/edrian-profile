@@ -11,7 +11,7 @@ export const projects: Project[] = [
   {
     slug: 'toonify',
     name: 'Toonify',
-    summary: 'Personal Manwha reader fetched from ScraperGo API with mobile app support',
+    summary: 'Personal Manwha reader fetched from ScraperGo API with Bubble.io mobile app support.',
     url: 'https://toonify-91893.bubbleapps.io/version-test',
     stack: ['Bubble.io', 'Mobile', 'API']
   }

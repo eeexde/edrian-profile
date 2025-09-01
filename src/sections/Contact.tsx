@@ -6,7 +6,7 @@ const Contact: React.FC = () => (
       <a className="btn" href="mailto:pasaylo.ed03@gmail.com">Email me</a>
       <div className="socials">
         <a href="https://github.com/eeexde" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="https://www.onlinejobs.ph/jobseekers/info/4228054" target="_blank" rel="noreferrer">Online Jobs Ph</a>
+        <a href="https://www.onlinejobs.ph/jobseekers/info/4228054" target="_blank" rel="noreferrer">OnlineJobsPh</a>
       </div>
     </div>
   </Section>
