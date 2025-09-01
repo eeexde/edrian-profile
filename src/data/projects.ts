@@ -14,12 +14,5 @@ export const projects: Project[] = [
     summary: 'Personal Manwha reader fetched from ScraperGo API with mobile app support',
     url: 'https://toonify-91893.bubbleapps.io/version-test',
     stack: ['Bubble.io', 'Mobile', 'API']
-  },
-  {
-    slug: 'charts',
-    name: 'Charts Kit',
-    summary: 'Lightweight chart utilities with composable primitives.',
-    url: 'https://npmjs.com/package/@your/charts-kit',
-    stack: ['TypeScript', 'Rollup']
   }
 ]
