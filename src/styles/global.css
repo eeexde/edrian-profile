@@ -34,9 +34,25 @@ body{
   background:var(--brand); color:#0b1020; border:none; border-radius:999px; padding:.7rem 1rem;
   font-weight:600; text-decoration:none; cursor:pointer;
 }
+
+.btn-hover{background-size: 300% 100%; border-radius: 50px; moz-transition: all .4s ease-in-out; 
+  -o-transition: all .4s ease-in-out; -webkit-transition: all .4s ease-in-out; transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover{    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;}
+
 .btn:hover{filter:brightness(1.05)}
 .btn--ghost{
   background:transparent; color:var(--text); border:1px solid var(--border);
+}
+
+.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
 .nav{
@@ -79,7 +95,7 @@ body{
   padding:1rem; text-decoration:none; color:inherit; display:block;
   transition:transform .12s ease, border-color .12s ease, background .12s ease;
 }
-.card:hover, .chip:hover{ transform:translateY(-2px); border-color:#263446; background:rgba(15,23,42,.75); }
+.card:hover, .chip:hover, .btn--ghost:hover{ transform:translateY(-2px); border-color:#263446; background:rgba(15,23,42,.75); }
 .card__title{ margin:.2rem 0; font-size:1.05rem }
 .card__subtitle{ margin:.1rem 0 .6rem; color:var(--muted) }
 .card__body{ line-height:1.6 }

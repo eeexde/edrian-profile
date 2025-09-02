@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
               teams to focus on what matters most.
           </p>
           <div className="hero__ctas">
-            <a className="btn" href="#projects">View Projects</a>
+            <a className="btn color-9 btn-hover" href="#projects">View Projects</a>
             <a className="btn btn--ghost" href="./Edrian_Pasaylo_Resume_Clean.pdf" target="_blank" rel="noreferrer">Resume</a>
           </div>
         </div>
