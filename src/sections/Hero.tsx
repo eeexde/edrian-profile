@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
         <div className="hero__avatar" aria-hidden="true">
-          <img src={edrianImage} alt="Edrian in a suit" width="400" height="500"></img>
+          <img src={edrianImage} alt="Edrian in a suit" width="350" height="500"></img>
         </div>
       </div>
     </section>
