@@ -79,7 +79,7 @@ body{
   padding:1rem; text-decoration:none; color:inherit; display:block;
   transition:transform .12s ease, border-color .12s ease, background .12s ease;
 }
-.card:hover{ transform:translateY(-2px); border-color:#263446; background:rgba(15,23,42,.75); }
+.card:hover, .chip:hover{ transform:translateY(-2px); border-color:#263446; background:rgba(15,23,42,.75); }
 .card__title{ margin:.2rem 0; font-size:1.05rem }
 .card__subtitle{ margin:.1rem 0 .6rem; color:var(--muted) }
 .card__body{ line-height:1.6 }
@@ -88,7 +88,7 @@ body{
 .skills{ display:grid; gap:1.2rem }
 .skills__group h3{ margin:.2rem 0 .3rem }
 .chips{ display:flex; flex-wrap:wrap; gap:.5rem; padding-left:0; list-style:none; }
-.chip{ padding:.35rem .6rem; border-radius:999px; background:#0e152b; border:1px solid var(--border); }
+.chip{ padding:.7rem 1.2rem; border-radius:999px; background:#0e152b; border:1px solid var(--border); }
 
 .contact{ display:flex; align-items:center; gap:1rem; flex-wrap:wrap }
 .socials{ display:flex; gap:1rem }

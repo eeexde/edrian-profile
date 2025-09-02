@@ -1,10 +1,9 @@
 import Section from '../components/Section'
 
 const skills = {
-  Languages: ['TypeScript', 'JavaScript', 'HTML', 'CSS', 'Node.js'],
-  Frameworks: ['React', 'Vite', 'Express'],
-  Tools: ['Git', 'Vitest', 'Playwright', 'ESLint', 'Prettier'],
-  Cloud: ['Vercel', 'Netlify', 'Firebase']
+  Languages: ['TypeScript', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Liquid', 'SQL'],
+  Automations: ['Make.com', 'Power Automate', 'AHK', 'Zapier', 'N8N'],
+  "Low Code": ['Bubble.io', 'Wordpress', 'Shopify']
 }
 
 const Skills: React.FC = () => (
