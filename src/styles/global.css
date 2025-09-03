@@ -14,7 +14,7 @@ html{background-color: #0b1020}
 html,body,#root{height:100%}
 html{scroll-behavior:smooth}
 body{
-  margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  margin:0; font-family: 'Space Grotesk', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color:var(--text); background:linear-gradient(180deg, #0b1020, #0b1020 60%, #0a0f1c);
 }
 
@@ -80,9 +80,12 @@ body{
     radial-gradient(900px 300px at 90% 0%, rgba(167,139,250,.12), transparent 60%);
 }
 .hero__inner{ display:grid; gap:2rem; align-items:center; grid-template-columns:1fr; }
-.hero__avatar{ font-size:64px; filter:drop-shadow(0 6px 18px rgba(96,165,250,.35)); }
+.hero__avatar{ font-size:64px; filter:drop-shadow(0 6px 18px rgba(96,165,250,.35)); display: flex; justify-content: center;}
 .hero__ctas{ display:flex; gap:.8rem; margin-top:1rem; }
-@media(min-width:920px){ .hero__inner{ grid-template-columns:1.4fr .6fr } }
+@media(min-width:920px){ .hero__inner{ grid-template-columns:1.4fr .6fr }  .hero__avatar {
+    justify-content: flex-start; /* reset for large screens */
+  }}
+.hero__avatar img{ border-radius:100px; max-width: 100%; }
 
 .section{ padding:3rem 0; }
 .section__header{ margin-bottom:1rem; }
