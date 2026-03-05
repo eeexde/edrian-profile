@@ -102,7 +102,7 @@ h1 {
   padding:1rem; text-decoration:none; color:inherit; display:block;
   transition:transform .12s ease, border-color .12s ease, background .12s ease;
 }
-.card:hover, .chip:hover, .btn--ghost:hover{ transform:translateY(-2px); border-color:#263446; background:rgba(15,23,42,.75); }
+.card:hover, .btn--ghost:hover{ transform:translateY(-2px); border-color:#263446; background:rgba(15,23,42,.75); }
 .card__title{ margin:.2rem 0; font-size:1.05rem }
 .card__subtitle{ margin:.1rem 0 .6rem; color:var(--muted) }
 .card__body{ line-height:1.6 }
