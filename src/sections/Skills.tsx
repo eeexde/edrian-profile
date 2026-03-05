@@ -1,7 +1,7 @@
 import Section from '../components/Section'
 
 const skills = {
-  Languages: ['TypeScript', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Liquid', 'SQL'],
+  Languages: ['TypeScript', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Liquid', 'SQL', 'PHP'],
   Automations: ['Make.com', 'Power Automate', 'AHK', 'Zapier', 'N8N'],
   "Low Code Platforms": ['Bubble.io', 'Wordpress', 'Shopify']
 }
