@@ -35,5 +35,12 @@ export const projects: Project[] = [
     summary: 'Loan management system for MINA Pro, developed using Bubble.io to enhance client servicing and tracking.',
     url: 'https://minapro.io',
     stack: ['Bubble.io', 'Mobile', 'API', 'Make.com', 'OpenAI', 'XML']
+  },
+  {
+    slug: 'salesms',
+    name: 'Sales Made Easy',
+    summary: 'A personal CMO that generates strategies, provide weekly checkins, and post content on LinkedIn based on your business needs.',
+    url: 'https://lucio-62986.bubbleapps.io/version-test',
+    stack: ['Bubble.io', 'API', 'OpenAI', 'LinkedIn API', 'Twilio', 'LemonSqueezy']
   }
 ]
